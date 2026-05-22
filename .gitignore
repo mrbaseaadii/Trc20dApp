@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Build artifacts
+*.sol.js
+*.sol.ts
+*.abi
+*.bin
+
+# TRON
+.tronbox/
+tronbox-config.js
+
+# Hardhat
+hardhat/
+hardhat-artifacts/
+hardhat-cache/
+
+# Contracts compilation
+built-contracts/
